@@ -96,4 +96,4 @@ GET http://localhost:3000/api/articles/search?query=node
 ---
 
 ## Auteur
-Samuel
+Karandi Maryse
