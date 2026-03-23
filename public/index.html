@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Blog API</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Mon Blog</h1>
+    </header>
+
+    <main>
+      <!-- FORMULAIRE -->
+      <section class="form-section">
+        <h2>Créer un article</h2>
+
+        <input type="text" id="title" placeholder="Titre" />
+        <input type="text" id="author" placeholder="Auteur" />
+        <input type="text" id="category" placeholder="Catégorie" />
+        <input type="text" id="tags" placeholder="Tags" />
+        <textarea id="content" placeholder="Contenu"></textarea>
+
+        <button onclick="createArticle()">Publier</button>
+      </section>
+
+      <!-- RECHERCHE -->
+      <section class="search-section">
+        <input type="text" id="search" placeholder="Rechercher..." />
+        <button onclick="searchArticles()">Rechercher</button>
+      </section>
+
+      <!-- LISTE -->
+      <section class="articles-section">
+        <h2>Articles</h2>
+        <div id="articles"></div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
