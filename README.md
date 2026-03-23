@@ -11,7 +11,7 @@ création, lecture, mise à jour, suppression et recherche.
 ## Installation
 
 ### 1. Cloner le projet
-git clone <url_du_projet>
+git clone https://github.com/karandimarlyse-eng/BlogApp/
 
 ### 2. Installer les dépendances
 npm install
