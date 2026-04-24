@@ -21,6 +21,7 @@ const articleRoutes = require('./routes/articleRoutes');
 app.use('/api/articles', articleRoutes);
 
 // Route test
+// Route test
 app.get('/', (req, res) => {
     res.json({ message: "API Blog fonctionnelle" });
 });
